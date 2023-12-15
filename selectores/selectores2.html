@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color: red;
+        }
+
+        div>div {
+            background: blue;
+            color: aliceblue;
+        }
+
+        div>div>p {
+            color: yellow;
+        }
+
+        .my_favorite {
+            background: green;
+        }
+
+        div+div {
+            background: red;
+        }
+
+        div ~ p {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Ciudades de Nicaragua</h1>
+        <p>Managua</p>
+        <p>León</p>
+        <p>Granada</p>
+        <p>Matagalpa</p>
+        <p>Chinandega</p>
+        <p>Estelí</p>
+        <div>
+            <h2>Mis cuidades favoritas</h2>
+            <p class="my_favorite">Masaya</p>
+            <p>Boaco</p>
+            <p>Carazo</p>
+            <p>Chontales</p>
+        </div>
+        <div>
+            <h2>Ríos de Nicaragua</h2>
+        </div>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae tempora eius nisi non at porro voluptatum dolore, ipsam sed reprehenderit commodi consequatur ea vel animi rem, incidunt doloremque numquam?</p>
+</body>
+
+</html>
