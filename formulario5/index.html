@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uso de select ">
+    <meta name="keywords" content="HTML, select">
+    <meta name="author" content="José A. Durán G.">
+    <title>Select - jadg13</title>
+</head>
+<body>
+    <main>
+        <!-- primera forma -->
+        <select name ="cursos" id = "" >
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">Web Standards</option>
+        </select>
+
+        <!-- segunda forma y con buenas practicas-->
+        <input list="courses">
+        <datalist id="courses">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standards"></option>
+            <option value="PHP"></option>
+            <option value="MySQL"></option>
+            <option value="Python"></option>
+            <option value="Java"></option>
+            <option value="C#"></option>
+            <option value="C++"></option>
+            <option value="C"></option>
+            <option value="Ruby"></option>
+            <option value="Go"></option>
+            <option value="Swift"></option>
+        </datalist>
+
+        <!-- tercera forma - Agrupaciones -->
+        <select name="cursos" id="">
+            <optgroup label="Frontend">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web Standards">Web Standards</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="PHP">PHP</option>
+                <option value="MySQL">MySQL</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="C">C</option>
+                <option value="Ruby">Ruby</option>
+                <option value="Go">Go</option>
+                <option value="Swift">Swift</option>
+            </optgroup>
+        </select>
+
+    </main>
+</body>
+</html>
