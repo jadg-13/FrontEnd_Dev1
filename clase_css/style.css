@@ -5,6 +5,33 @@ p {
     font-size: 40px;
 }
 
+h1 {
+    color: green;
+    font-size: 50px;
+}
+
+h2 {
+    color: indigo;
+    font-size: 30px;
+}
+
+h3 {
+    color: yellow;
+    font-size: 20px;
+}
+
+ul {
+    color: red;
+    font-size: 20px;
+}
+
+ul li {
+    color: red;
+    font-size: 18px;
+    /*quitar viñeta*/
+    list-style: none;
+}
+
 /* usando clases */
 .txt-parrafo {
     color: red;
@@ -15,4 +42,33 @@ p {
 #txt-p{
     color: blue;
     font-size: 30px;
+}
+
+/* estilo para un card */
+#card{
+    background-color: #83cd61;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+/* estilo para imagen */
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #23a62c;
+    
+}
+
+/* estilo para mover y poner cuadrada la imagen al pasar el mouse */
+img:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 0%;
+    border: 1px solid #0b309e;
+    padding: 20px;
 }
