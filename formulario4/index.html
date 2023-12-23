@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autocomplete y require">
+    <meta name="keywords" content="HTML, Autocomplete y require">
+    <meta name="author" content="José A. Durán G.">
+    <title>Autocomplete y require - jadg13</title>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <label for="txt_name">
+                <span>Nombre</span>
+                <input type="text" name="txt_name" id="txt_name" autocomplete="name" required>
+            </label>
+            <label for="txt_email">
+                <span>Correo electronico</span>
+                <input type="email" name="txt_email" id="txt_email" autocomplete="email" readonly>
+            </label>
+            <label for="txt_country">
+                <span>País</span>
+                <input type="text" name="txt_country" id="txt_country" autocomplete="country">
+            </label>
+            <label for="txt_cp">
+                <span>Codigo postal</span>
+                <input type="text" name="txt_cp" id="txt_cp" autocomplete="postal-code">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+
+</html>
