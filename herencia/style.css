@@ -1,0 +1,11 @@
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1{
+    font-size: inherit;
+}
+
