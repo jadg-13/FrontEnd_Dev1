@@ -1,0 +1,5 @@
+/*Hermanos adyacentes o cercano*/
+h2 + p {
+    color: white;
+    background-color: #003366;
+}
