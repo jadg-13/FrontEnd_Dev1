@@ -1,0 +1,10 @@
+/*combinador child*/
+div > p {
+    color: whitesmoke;
+    background-color: #003366;
+}
+
+/*combinador descendiente*/
+div p {
+    font-size: x-large;
+}
